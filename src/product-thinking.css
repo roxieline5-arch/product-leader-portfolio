@@ -1,0 +1,585 @@
+.product-thinking-page {
+  --thinking-canvas: 1440px;
+  --thinking-gutter: 48px;
+  --thinking-gold: #e4b044;
+  --thinking-ivory: #f3eee5;
+  --thinking-muted: #aaa8a2;
+  width: 100%;
+  min-height: 0;
+  overflow-x: clip;
+  color: var(--thinking-ivory);
+  background: #030405;
+}
+
+.thinking-hero {
+  width: 100%;
+}
+
+.thinking-hero-inner {
+  display: grid;
+  grid-template-columns: 38% 62%;
+  width: 100%;
+  max-width: var(--thinking-canvas);
+  min-height: 455px;
+  margin: 0 auto;
+  padding: 0 var(--thinking-gutter);
+}
+
+.thinking-hero-copy {
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  padding: 8px 42px 6px 0;
+}
+
+.thinking-kicker {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin: 0;
+  color: var(--thinking-gold);
+  font: 600 13px/1.2 Arial, sans-serif;
+  letter-spacing: 0.07em;
+}
+
+.thinking-kicker::before {
+  width: 31px;
+  height: 1px;
+  content: "";
+  background: var(--thinking-gold);
+}
+
+.thinking-hero h1 {
+  margin: 27px 0 20px;
+  color: var(--thinking-ivory);
+  font-size: clamp(48px, 4vw, 60px);
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.025em;
+  white-space: pre-line;
+  text-wrap: balance;
+}
+
+.thinking-short-rule {
+  display: block;
+  width: 32px;
+  height: 1px;
+  margin-bottom: 20px;
+  background: var(--thinking-gold);
+}
+
+.thinking-hero-description {
+  margin: 0;
+  color: #cbc7bf;
+  font-size: 17px;
+  line-height: 1.75;
+  white-space: pre-line;
+}
+
+.thinking-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 36px;
+  color: var(--thinking-gold);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: color 180ms ease, text-shadow 180ms ease;
+}
+
+.thinking-cta span {
+  font: 22px/1 Arial, sans-serif;
+  transition: transform 180ms ease;
+}
+
+.thinking-cta:hover,
+.thinking-cta:focus-visible {
+  color: #f0c967;
+  text-shadow: 0 0 12px rgba(228, 176, 68, 0.28);
+}
+
+.thinking-cta:hover span,
+.thinking-cta:focus-visible span {
+  transform: translateX(4px);
+}
+
+.thinking-cta:focus-visible {
+  outline: 1px solid rgba(228, 176, 68, 0.7);
+  outline-offset: 7px;
+}
+
+.decision-landscape {
+  position: relative;
+  min-width: 0;
+  align-self: center;
+}
+
+.decision-landscape-heading {
+  position: absolute;
+  z-index: 3;
+  top: 1%;
+  left: 50%;
+  display: flex;
+  width: max-content;
+  max-width: 70%;
+  transform: translateX(-50%);
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.decision-landscape-heading strong {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--thinking-gold);
+  font: 600 12px/1.2 Arial, sans-serif;
+  letter-spacing: 0.06em;
+}
+
+.decision-landscape-heading strong::before,
+.decision-landscape-heading strong::after {
+  width: 25px;
+  height: 1px;
+  content: "";
+  background: rgba(228, 176, 68, 0.7);
+}
+
+.decision-landscape-heading span {
+  color: #d2cdc3;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.decision-landscape-canvas {
+  position: relative;
+  width: 100%;
+  height: 430px;
+}
+
+.decision-landscape-canvas > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 16px rgba(218, 159, 36, 0.13));
+}
+
+.decision-signal {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  pointer-events: none;
+}
+
+.decision-signal strong {
+  color: #eee9e0;
+  font: 500 11px/1.25 Arial, sans-serif;
+}
+
+.decision-signal span {
+  color: #bdb8ae;
+  font-size: 11px;
+  line-height: 1.25;
+}
+
+.decision-signal-market {
+  top: 15%;
+  left: 6%;
+  width: 23%;
+  text-align: right;
+}
+
+.decision-signal-user {
+  top: 51%;
+  left: 0;
+  width: 14%;
+  text-align: right;
+}
+
+.decision-signal-business {
+  top: 15%;
+  right: 4%;
+  width: 24%;
+}
+
+.decision-signal-technology {
+  top: 51%;
+  right: 0;
+  width: 18%;
+}
+
+.decision-signal-strategy {
+  top: 79%;
+  left: 56%;
+  width: 25%;
+}
+
+.thinking-process {
+  width: 100%;
+  padding-top: 8px;
+}
+
+.thinking-process-panel {
+  position: relative;
+  width: calc(100% - (var(--thinking-gutter) * 2));
+  max-width: calc(var(--thinking-canvas) - (var(--thinking-gutter) * 2));
+  min-height: 445px;
+  margin: 0 auto;
+  padding: 42px 46px 29px;
+  border-radius: 10px;
+  background-color: #060706;
+  background-image: url("./assets/product-thinking/product-thinking-judgment-process.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+.thinking-process-label {
+  position: absolute;
+  z-index: 2;
+  top: -11px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  transform: translateX(-50%);
+  color: var(--thinking-gold);
+  font: 600 12px/1.2 Arial, sans-serif;
+  letter-spacing: 0.055em;
+  white-space: nowrap;
+}
+
+.thinking-process-label span {
+  width: 29px;
+  height: 1px;
+  background: rgba(228, 176, 68, 0.75);
+}
+
+.thinking-process-stages {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 38px;
+  min-height: 374px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.thinking-process-stages li {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+.thinking-process-stages header {
+  display: flex;
+  min-height: 113px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thinking-stage-number {
+  color: #e8b34c;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.thinking-process-stages strong {
+  margin-top: 14px;
+  color: #e7e1d8;
+  font: 500 12px/1.2 Arial, sans-serif;
+}
+
+.thinking-process-stages h3 {
+  margin: 8px 0 0;
+  color: #f0ece4;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.thinking-process-stages p {
+  margin: auto 0 0;
+  color: #aaa7a1;
+  font-size: 13px;
+  line-height: 1.65;
+  text-align: left;
+}
+
+.thinking-principles {
+  display: flex;
+  width: calc(100% - (var(--thinking-gutter) * 2));
+  max-width: calc(var(--thinking-canvas) - (var(--thinking-gutter) * 2));
+  min-height: 274px;
+  margin: 24px auto 30px;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #060706;
+  background-image: url("./assets/product-thinking/product-thinking-principles-background.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.thinking-principles-content {
+  width: 100%;
+  padding: 20px var(--thinking-gutter) 84px;
+  text-align: center;
+}
+
+.thinking-principles-content p {
+  margin: 0;
+  color: var(--thinking-gold);
+  font: 600 12px/1.2 Arial, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.thinking-principles-content h2 {
+  display: flex;
+  margin: 19px 0 0;
+  flex-direction: column;
+  align-items: center;
+  color: #f0ece4;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: 0.025em;
+}
+
+.thinking-principles-content h2 strong {
+  color: #e7b349;
+  font-weight: 400;
+}
+
+@media (max-width: 1100px) and (min-width: 901px) {
+  .product-thinking-page {
+    --thinking-gutter: 38px;
+  }
+
+  .thinking-hero-inner {
+    grid-template-columns: 36% 64%;
+  }
+
+  .thinking-hero-copy {
+    padding-right: 24px;
+  }
+
+  .thinking-hero h1 {
+    font-size: 46px;
+  }
+
+  .decision-signal strong,
+  .decision-signal span {
+    font-size: 10px;
+  }
+
+  .thinking-process-stages {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .product-thinking-page {
+    --thinking-gutter: 28px;
+  }
+
+  .thinking-hero-inner {
+    display: block;
+    min-height: 0;
+    padding: 0 var(--thinking-gutter);
+  }
+
+  .thinking-hero-copy {
+    padding: 56px 0 46px;
+  }
+
+  .thinking-hero h1 {
+    margin-top: 23px;
+    font-size: clamp(40px, 11vw, 54px);
+  }
+
+  .thinking-hero-description {
+    font-size: 16px;
+  }
+
+  .thinking-cta {
+    margin-top: 29px;
+  }
+
+  .decision-landscape {
+    padding: 0 0 38px;
+  }
+
+  .decision-landscape-heading {
+    position: static;
+    width: 100%;
+    max-width: none;
+    margin-bottom: 17px;
+    transform: none;
+  }
+
+  .decision-landscape-canvas {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px 22px;
+  }
+
+  .decision-landscape-canvas > img {
+    position: static;
+    grid-column: 1 / -1;
+    width: 100%;
+    height: auto;
+  }
+
+  .decision-signal {
+    position: static;
+    width: auto;
+    text-align: left;
+  }
+
+  .decision-signal strong {
+    font-size: 11px;
+  }
+
+  .decision-signal span {
+    font-size: 11px;
+  }
+
+  .decision-signal-strategy {
+    grid-column: 1 / -1;
+  }
+
+  .thinking-process {
+    padding-top: 10px;
+  }
+
+  .thinking-process-panel {
+    width: calc(100% - 32px);
+    min-height: 0;
+    padding: clamp(168px, 34vw, 305px) 22px 10px;
+    background-position: center 28px;
+    background-size: 100% auto;
+  }
+
+  .thinking-process-label {
+    top: 0;
+    max-width: calc(100% - 24px);
+    white-space: normal;
+    text-align: center;
+  }
+
+  .thinking-process-label span {
+    width: 20px;
+    flex: 0 0 20px;
+  }
+
+  .thinking-process-stages {
+    display: block;
+    min-height: 0;
+  }
+
+  .thinking-process-stages li {
+    display: grid;
+    grid-template-columns: 76px minmax(0, 1fr);
+    padding: 27px 0;
+    border-top: 1px solid rgba(195, 178, 143, 0.17);
+    text-align: left;
+  }
+
+  .thinking-process-stages header {
+    display: grid;
+    min-height: 0;
+    grid-template-columns: 76px minmax(0, 1fr);
+    grid-column: 1 / -1;
+    align-items: baseline;
+  }
+
+  .thinking-stage-number {
+    grid-row: 1 / span 2;
+    font-size: 42px;
+  }
+
+  .thinking-process-stages strong {
+    margin-top: 0;
+  }
+
+  .thinking-process-stages h3 {
+    margin-top: 7px;
+    font-size: 15px;
+  }
+
+  .thinking-process-stages p {
+    grid-column: 2;
+    margin-top: 16px;
+    font-size: 13px;
+  }
+
+  .thinking-principles {
+    width: calc(100% - 32px);
+    min-height: 320px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background-size: auto 100%;
+  }
+
+  .thinking-principles-content {
+    padding: 34px 22px 118px;
+  }
+
+  .thinking-principles-content h2 {
+    margin-top: 18px;
+    font-size: clamp(25px, 7.3vw, 34px);
+  }
+}
+
+@media (max-width: 520px) {
+  .decision-landscape-canvas {
+    grid-template-columns: 1fr;
+  }
+
+  .decision-signal-strategy {
+    grid-column: auto;
+  }
+
+  .thinking-process-panel {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .thinking-process-stages li,
+  .thinking-process-stages header {
+    grid-template-columns: 66px minmax(0, 1fr);
+  }
+
+  .thinking-process-stages p {
+    grid-column: 2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-thinking-page *,
+  .product-thinking-page *::before,
+  .product-thinking-page *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

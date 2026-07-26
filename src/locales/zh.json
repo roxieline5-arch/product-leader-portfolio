@@ -1,0 +1,336 @@
+{
+  "home": {
+    "brand": { "name": "Jing Dong", "role": "PRODUCT LEADER" },
+    "nav": {
+      "home": "首页",
+      "cases": "案例",
+      "journey": "旅程",
+      "thinking": "产品判断",
+      "aiLab": "AI探索",
+      "contact": "联系",
+      "language": "中文"
+    },
+    "languages": { "zh": "中文", "en": "English" },
+    "hero": {
+      "label": "PRODUCT LEADER",
+      "title": "产品负责人",
+      "subtitle": "连接商业、技术与 AI，推动复杂产品从 0 到 1 落地。",
+      "description": "在复杂与不确定中，洞察本质，用产品创造清晰的价值与影响力。",
+      "system": "产品智能系统",
+      "insight": "商业洞察",
+      "tech": "技术能力",
+      "ai": "AI创造",
+      "build": "产品构建",
+      "cta": "探索我的产品实践"
+    },
+    "capability": {
+      "item1": { "title": "0→1 产品构建", "description": "从0到1构建复杂产品" },
+      "item2": { "title": "商业与技术连接", "description": "连接商业与技术，创造业务价值" },
+      "item3": { "title": "AI增强产品创造", "description": "用AI放大产品创造力" }
+    },
+    "belief": {
+      "label": "MY BELIEF",
+      "intro": "在不确定的环境中，",
+      "direction": "判断方向，",
+      "system": "建立系统，",
+      "value": "创造长期价值。",
+      "description": "产品的价值，不在于功能的多少，而在于是否解决真实问题，是否具备持续进化的能力。"
+    },
+    "footer": { "role": "Product Leader", "connect": "Let's Connect" }
+  },
+  "cases": {
+    "archiveLabel": "产品案例档案",
+    "hero": {
+      "label": "CASE STUDIES",
+      "title": "复杂业务中的\n产品判断",
+      "description": "记录不同阶段的产品实践，\n探索商业、技术与用户价值之间的连接。",
+      "archiveLabel": "PRODUCT LEADERSHIP ARCHIVE",
+      "startYear": "2017",
+      "endYear": "2023",
+      "stages": [
+        { "name": "Discovery", "description": "洞察发现" },
+        { "name": "Definition", "description": "定义问题" },
+        { "name": "Design", "description": "方案设计" },
+        { "name": "Build", "description": "产品构建" },
+        { "name": "Growth", "description": "价值增长" }
+      ]
+    },
+    "meta": {
+      "role": "Role",
+      "period": "Period",
+      "scope": "Scope"
+    },
+    "items": [
+      {
+        "number": "01",
+        "title": "传统业务数字化平台",
+        "description": "将传统业务经验抽象为\n可复制的 SaaS 产品系统。",
+        "role": "Product Lead",
+        "period": "2017 - 2020",
+        "scope": "100+ Stores"
+      },
+      {
+        "number": "02",
+        "title": "数字资产生态平台",
+        "description": "探索数字资产环境下的新业务模式，\n连接资产、用户和生态伙伴。",
+        "role": "Product Lead",
+        "period": "2020 - 2023",
+        "scope": "200+ Partners"
+      },
+      {
+        "number": "03",
+        "title": "金融基础设施建设",
+        "description": "构建稳定、安全、\n可扩展的金融产品基础能力。",
+        "role": "Product Lead",
+        "period": "2023 - 至今",
+        "scope": "8000万+ USDT 资产规模"
+      }
+    ],
+    "philosophy": {
+      "label": "PRODUCT LEADERSHIP PHILOSOPHY",
+      "title": "好的产品，\n不是解决单一问题，\n而是建立能够持续创造价值的系统。"
+    }
+  },
+  "journey": {
+    "hero": {
+      "label": "JOURNEY",
+      "title": "从技术到产品，\n从执行到判断",
+      "description": "探索技术、商业和产品能力，\n如何在不同阶段持续成长。",
+      "archiveLabel": "LEADERSHIP EVOLUTION ARCHIVE",
+      "archiveDescription": "能力进化不是线性增长，而是系统性跃迁。",
+      "stages": [
+        { "number": "01", "name": "技术基础", "description": "理解系统与工程" },
+        { "number": "02", "name": "产品实践", "description": "连接用户与业务" },
+        { "number": "03", "name": "创新探索", "description": "创造新的可能" },
+        { "number": "04", "name": "领导力形成", "description": "影响组织与团队" }
+      ]
+    },
+    "leadership": {
+      "label": "LEADERSHIP JOURNEY",
+      "title": "产品领导力的成长之旅",
+      "capabilityLabel": "构建能力",
+      "stages": [
+        {
+          "number": "01",
+          "name": "技术基础",
+          "period": "2013 - 2016",
+          "summary": "计算机背景，从技术视角理解系统、\n工程和产品底层逻辑。",
+          "capabilities": [
+            "工程思维：理解系统架构、数据结构和工程方法论",
+            "系统理解：掌握复杂系统的运行机制与底层逻辑"
+          ]
+        },
+        {
+          "number": "02",
+          "name": "产品实践",
+          "period": "2016 - 2020",
+          "summary": "进入产品岗位，负责业务系统\n和数字化产品建设。",
+          "capabilities": [
+            "产品设计：从需求到方案，打磨用户价值",
+            "商业分析：理解业务模式，驱动产品增长"
+          ]
+        },
+        {
+          "number": "03",
+          "name": "数字创新",
+          "period": "2020 - 2023",
+          "summary": "探索区块链、数字资产和\n新业务模式。",
+          "capabilities": [
+            "0→1 构建：从无到有，验证新商业模式",
+            "新兴技术：拥抱不确定性，探索技术边界"
+          ]
+        },
+        {
+          "number": "04",
+          "name": "产品领导力",
+          "period": "2023 - Now",
+          "summary": "连接商业、技术和团队，\n推动复杂产品落地。",
+          "capabilities": [
+            "战略思维：洞察机会，制定长期产品战略",
+            "团队领导：激发团队潜能，建立高效协作",
+            "系统思维：统筹全局，构建可持续的产品体系"
+          ]
+        }
+      ]
+    },
+    "philosophy": {
+      "label": "PRODUCT LEADERSHIP PHILOSOPHY",
+      "title": "成长不是积累更多经历，\n而是在复杂环境中形成更好的判断。"
+    }
+  },
+  "productThinking": {
+    "hero": {
+      "label": "PRODUCT THINKING",
+      "title": "在不确定中，\n寻找正确方向",
+      "description": "在商业目标、技术约束与用户价值之间，\n寻找最佳产品判断。",
+      "cta": "探索我的产品实践",
+      "archiveLabel": "DECISION INTELLIGENCE ARCHIVE",
+      "archiveDescription": "战略判断地图",
+      "signals": [
+        { "key": "market", "label": "Market Signals", "description": "市场信号" },
+        { "key": "user", "label": "User Reality", "description": "用户洞察" },
+        { "key": "business", "label": "Business Goals", "description": "商业目标" },
+        { "key": "technology", "label": "Technology Constraints", "description": "技术约束" },
+        { "key": "strategy", "label": "Product Strategy", "description": "产品策略" }
+      ]
+    },
+    "process": {
+      "label": "PRODUCT JUDGMENT PROCESS",
+      "stages": [
+        {
+          "number": "01",
+          "keyword": "OBSERVE",
+          "title": "观察真实问题",
+          "description": "从复杂信息中提取真正值得关注的问题。"
+        },
+        {
+          "number": "02",
+          "keyword": "UNDERSTAND",
+          "title": "理解复杂环境",
+          "description": "理解用户、市场、业务与技术之间的真实关系。"
+        },
+        {
+          "number": "03",
+          "keyword": "DECIDE",
+          "title": "做出关键取舍",
+          "description": "在多个选项中权衡取舍，选择最优的产品方向。"
+        },
+        {
+          "number": "04",
+          "keyword": "BUILD",
+          "title": "建立长期能力",
+          "description": "将判断转化为可复用的系统，驱动产品长期增长。"
+        }
+      ]
+    },
+    "principles": {
+      "label": "PRODUCT PRINCIPLES",
+      "line1": "好的产品，",
+      "line2": "不是堆叠功能，",
+      "line3": "而是建立解决真实问题的系统。"
+    }
+  },
+  "aiLab": {
+    "hero": {
+      "label": "AI LAB",
+      "titleLead": "重新定义",
+      "titleBase": "产品",
+      "titleAccent": "创造方式",
+      "description": "探索 AI 如何连接产品判断、\n设计创造与工程落地，\n构建下一代产品工作方式。",
+      "cta": "探索我的AI实验室",
+      "signals": [
+        { "key": "intent", "label": "HUMAN INTENT", "description": "人类意图" },
+        { "key": "augmentation", "label": "AI AUGMENTATION", "description": "AI 增强" },
+        { "key": "creation", "label": "PRODUCT CREATION", "description": "产品创造" },
+        { "key": "impact", "label": "REAL IMPACT", "description": "真实影响" }
+      ]
+    },
+    "framework": {
+      "label": "AI PRODUCT CREATION FRAMEWORK",
+      "stages": [
+        {
+          "number": "01",
+          "keyword": "EXPLORE",
+          "title": "探索机会",
+          "description": "AI 帮助我们洞察趋势，发现真实需求与机会。"
+        },
+        {
+          "number": "02",
+          "keyword": "CREATE",
+          "title": "创造方案",
+          "description": "AI 激发更多可能性，快速生成概念与多种方案。"
+        },
+        {
+          "number": "03",
+          "keyword": "BUILD",
+          "title": "构建产品",
+          "description": "AI 连接设计与工程，加速构建可用的产品。"
+        },
+        {
+          "number": "04",
+          "keyword": "EVOLVE",
+          "title": "持续优化",
+          "description": "AI 分析反馈与数据，持续进化产品体验与价值。"
+        }
+      ]
+    },
+    "experiments": {
+      "label": "AI EXPERIMENTS ARCHIVE",
+      "items": [
+        { "number": "01", "name": "AI WORKFLOW SYSTEM", "title": "AI 工作流系统" },
+        { "number": "02", "name": "AI CREATION ENGINE", "title": "AI 创造引擎" },
+        { "number": "03", "name": "AI PRODUCT STUDIO", "title": "AI 产品工作室" }
+      ]
+    },
+    "philosophy": {
+      "label": "AI PRODUCT PHILOSOPHY",
+      "line1": "AI不会替代产品判断，",
+      "line2": "而会放大创造能力。"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "CONTACT",
+      "titleLead": "寻找值得\n共同创造的",
+      "titleAccent": "产品机会",
+      "description": "如果你正在探索新的产品方向、\n数字创新或AI驱动的创造方式，\n欢迎与我交流。",
+      "cta": "Start Conversation"
+    },
+    "collaborationAreas": {
+      "label": "COLLABORATION AREAS",
+      "items": [
+        {
+          "number": "01",
+          "name": "PRODUCT LEADERSHIP",
+          "title": "产品领导力合作",
+          "description": "0-1 产品建设\n复杂业务突破"
+        },
+        {
+          "number": "02",
+          "name": "AI PRODUCT INNOVATION",
+          "title": "AI产品创新",
+          "description": "AI增强产品流程\n创新实验探索"
+        },
+        {
+          "number": "03",
+          "name": "DIGITAL TRANSFORMATION",
+          "title": "数字化转型",
+          "description": "传统业务升级\n系统建设与优化"
+        }
+      ]
+    },
+    "channels": {
+      "label": "CONTACT CHANNELS",
+      "items": [
+        {
+          "name": "Email",
+          "title": "邮箱联系",
+          "value": "jing.dong@productleader.com",
+          "href": "mailto:jing.dong@productleader.com"
+        },
+        {
+          "name": "Executive Profile",
+          "title": "产品负责人履历",
+          "value": "Download CV",
+          "href": "#"
+        },
+        {
+          "name": "LinkedIn",
+          "title": "职业网络连接",
+          "value": "View Profile",
+          "href": "#"
+        }
+      ]
+    },
+    "closing": {
+      "label": "LET'S CONNECT",
+      "titleLead": "好的合作，\n始于共同相信未来",
+      "titleAccent": "值得创造。"
+    }
+  },
+  "executiveFooter": {
+    "name": "Jing Dong",
+    "role": "Product Leader",
+    "connect": "Let's Connect"
+  }
+}

@@ -1,0 +1,277 @@
+/*
+ * Unified desktop density for the 1440px executive presentation canvas.
+ * Page-specific mobile layouts remain owned by their original stylesheets.
+ */
+
+:is(
+  .home-page,
+  .cases-page,
+  .journey-page,
+  .product-thinking-page,
+  .ai-lab-page,
+  .contact-page
+) {
+  --executive-canvas: 1440px;
+  --executive-header-height: 72px;
+  --executive-major-space: clamp(64px, 5vw, 96px);
+  --executive-internal-space: clamp(32px, 3vw, 48px);
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (min-width: 901px) {
+  :is(
+    .home-page,
+    .cases-page,
+    .journey-page,
+    .product-thinking-page,
+    .ai-lab-page,
+    .contact-page
+  ) > .site-header {
+    width: 100%;
+    max-width: var(--executive-canvas);
+    height: var(--executive-header-height);
+    padding-top: 16px;
+  }
+
+  :is(
+    .home-page,
+    .cases-page,
+    .journey-page,
+    .product-thinking-page,
+    .ai-lab-page,
+    .contact-page
+  ) > .site-header nav,
+  :is(
+    .home-page,
+    .cases-page,
+    .journey-page,
+    .product-thinking-page,
+    .ai-lab-page,
+    .contact-page
+  ) > .site-header .language {
+    padding-top: 8px;
+  }
+
+  /* Home: fill the canvas without separating the footer from the closing. */
+  .home-page .hero,
+  .home-page .hero-inner {
+    height: 500px;
+    min-height: 500px;
+  }
+
+  .home-page .hero-copy {
+    padding-top: 68px;
+  }
+
+  .home-page .capabilities,
+  .home-page .capability-list {
+    height: 126px;
+  }
+
+  .home-page .capability,
+  .home-page .capability + .capability {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .home-closing {
+    min-height: clamp(
+      400px,
+      calc(100vh - var(--executive-header-height) - 500px - 126px),
+      500px
+    );
+  }
+
+  /* Cases: denser archive rows, unchanged typography and natural text growth. */
+  .cases-hero-inner {
+    min-height: 420px;
+  }
+
+  .cases-hero-archive {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .archive-visual-wrap {
+    height: 274px;
+  }
+
+  .case-row,
+  .case-row-inner {
+    height: auto;
+    min-height: 160px;
+  }
+
+  .locale-en .cases-hero-inner {
+    min-height: 420px;
+  }
+
+  .locale-en .cases-page .case-row,
+  .locale-en .cases-page .case-row-inner {
+    height: auto;
+    min-height: 160px;
+  }
+
+  .case-number {
+    padding-top: 24px;
+  }
+
+  .case-summary {
+    padding-top: 25px;
+  }
+
+  .case-summary h2 {
+    margin-bottom: 12px;
+  }
+
+  .case-meta div + div {
+    margin-top: 7px;
+  }
+
+  .case-visual,
+  .locale-en .case-visual {
+    height: 158px;
+  }
+
+  .cases-closing {
+    min-height: 220px;
+  }
+
+  .cases-philosophy {
+    min-height: 132px;
+    padding-top: 19px;
+  }
+
+  .cases-philosophy h2 {
+    margin-top: 12px;
+  }
+
+  .cases-philosophy .cases-short-rule {
+    margin-top: 12px;
+  }
+
+  .locale-en .cases-philosophy-content {
+    width: min(650px, 55%);
+  }
+
+  .locale-en .cases-page .cases-philosophy h2 {
+    max-width: 46ch;
+  }
+
+  /* Journey: the decorative spine scales with four natural-content rows. */
+  .journey-hero-inner {
+    min-height: 420px;
+  }
+
+  .journey-evolution-canvas {
+    height: 400px;
+  }
+
+  .leadership-journey-heading {
+    min-height: 70px;
+  }
+
+  .leadership-journey-heading h2 {
+    margin-top: 9px;
+  }
+
+  .journey-stage {
+    min-height: 108px;
+  }
+
+  .journey-timeline-spine {
+    width: 83px;
+    height: 432px;
+    object-fit: contain;
+  }
+
+  .journey-stage-summary {
+    min-height: 48px;
+    line-height: 1.6;
+  }
+
+  .journey-stage-capabilities h4 {
+    margin-bottom: 5px;
+  }
+
+  .journey-stage-capabilities ul {
+    gap: 3px;
+  }
+
+  .locale-en .journey-page .journey-stage-capabilities li {
+    font-size: 0.6875rem;
+    line-height: 1.25;
+  }
+
+  .journey-stage-visual {
+    height: 102px;
+  }
+
+  .journey-philosophy {
+    min-height: 150px;
+  }
+
+  .journey-philosophy-content {
+    padding-top: 18px;
+    padding-bottom: 45px;
+  }
+
+  /* Product Thinking: render the framework assets at their native ratio. */
+  .thinking-hero-inner {
+    min-height: 420px;
+  }
+
+  .decision-landscape-canvas {
+    height: 400px;
+  }
+
+  .thinking-process-panel {
+    width: min(calc(100% - 96px), 1131px);
+    min-height: 376px;
+    padding: 34px 40px 20px;
+    background-size: contain;
+  }
+
+  .thinking-process-stages {
+    min-height: 322px;
+    gap: 32px;
+  }
+
+  .thinking-process-stages header {
+    min-height: 96px;
+  }
+
+  .thinking-stage-number {
+    font-size: 43px;
+  }
+
+  .thinking-process-stages strong {
+    margin-top: 10px;
+  }
+
+  .thinking-process-stages h3 {
+    margin-top: 6px;
+  }
+
+  .thinking-principles {
+    width: min(calc(100% - 96px), 1131px);
+    min-height: 273px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-size: contain;
+  }
+
+  /* Contract for the upcoming AI Lab implementation. */
+  .ai-lab-hero {
+    min-height: 440px;
+  }
+
+  .ai-lab-framework,
+  .ai-lab-experiments,
+  .ai-lab-philosophy {
+    width: min(calc(100% - 96px), var(--executive-canvas));
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

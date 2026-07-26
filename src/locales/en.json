@@ -1,0 +1,336 @@
+{
+  "home": {
+    "brand": { "name": "Jing Dong", "role": "PRODUCT LEADER" },
+    "nav": {
+      "home": "Home",
+      "cases": "Cases",
+      "journey": "Journey",
+      "thinking": "Thinking",
+      "aiLab": "AI Lab",
+      "contact": "Contact",
+      "language": "English"
+    },
+    "languages": { "zh": "中文", "en": "English" },
+    "hero": {
+      "label": "PRODUCT LEADER",
+      "title": "Product Leader",
+      "subtitle": "Connecting business, technology and AI to build complex products from 0 to 1.",
+      "description": "Finding clarity in uncertainty and creating meaningful product value and impact.",
+      "system": "Product Intelligence System",
+      "insight": "Business Insight",
+      "tech": "Technical Capability",
+      "ai": "AI Creation",
+      "build": "Product Building",
+      "cta": "Explore My Product Practice"
+    },
+    "capability": {
+      "item1": { "title": "0→1 Product Building", "description": "Building complex products from zero to one" },
+      "item2": { "title": "Business & Technology Bridge", "description": "Connecting business and technology to create value" },
+      "item3": { "title": "AI-Augmented Creation", "description": "Using AI to amplify product creation" }
+    },
+    "belief": {
+      "label": "MY BELIEF",
+      "intro": "In uncertainty,",
+      "direction": "find direction,",
+      "system": "build systems,",
+      "value": "create long-term value.",
+      "description": "Product value is not about more features, but solving real problems and creating lasting impact."
+    },
+    "footer": { "role": "Product Leader", "connect": "Let's Connect" }
+  },
+  "cases": {
+    "archiveLabel": "Product case archive",
+    "hero": {
+      "label": "CASE STUDIES",
+      "title": "Product Judgment\nin Complex Business",
+      "description": "Documenting product practice across different stages,\nconnecting business, technology and user value.",
+      "archiveLabel": "PRODUCT LEADERSHIP ARCHIVE",
+      "startYear": "2017",
+      "endYear": "2023",
+      "stages": [
+        { "name": "Discovery", "description": "Finding Insight" },
+        { "name": "Definition", "description": "Defining Problems" },
+        { "name": "Design", "description": "Designing Solutions" },
+        { "name": "Build", "description": "Building Products" },
+        { "name": "Growth", "description": "Growing Value" }
+      ]
+    },
+    "meta": {
+      "role": "Role",
+      "period": "Period",
+      "scope": "Scope"
+    },
+    "items": [
+      {
+        "number": "01",
+        "title": "Business Digitalization Platform",
+        "description": "Transforming operational expertise into\na repeatable SaaS product system.",
+        "role": "Product Lead",
+        "period": "2017 - 2020",
+        "scope": "100+ Stores"
+      },
+      {
+        "number": "02",
+        "title": "Digital Asset Ecosystem",
+        "description": "Exploring new digital asset business models,\nconnecting assets, users and ecosystem partners.",
+        "role": "Product Lead",
+        "period": "2020 - 2023",
+        "scope": "200+ Partners"
+      },
+      {
+        "number": "03",
+        "title": "Financial Infrastructure",
+        "description": "Building stable, secure and scalable\nfoundations for financial products.",
+        "role": "Product Lead",
+        "period": "2023 - Present",
+        "scope": "80M+ USDT in Assets"
+      }
+    ],
+    "philosophy": {
+      "label": "PRODUCT LEADERSHIP PHILOSOPHY",
+      "title": "Great products do not solve one problem.\nThey build systems that continuously create value."
+    }
+  },
+  "journey": {
+    "hero": {
+      "label": "JOURNEY",
+      "title": "From Technology to Product,\nFrom Execution to Judgment",
+      "description": "Exploring how technology, business and product capabilities\nevolve through every stage.",
+      "archiveLabel": "LEADERSHIP EVOLUTION ARCHIVE",
+      "archiveDescription": "Capability evolution is not linear growth, but a series of systemic leaps.",
+      "stages": [
+        { "number": "01", "name": "Technical Foundation", "description": "Understanding systems and engineering" },
+        { "number": "02", "name": "Product Practice", "description": "Connecting users and business" },
+        { "number": "03", "name": "Innovation Exploration", "description": "Creating new possibilities" },
+        { "number": "04", "name": "Leadership Formation", "description": "Influencing teams and organizations" }
+      ]
+    },
+    "leadership": {
+      "label": "LEADERSHIP JOURNEY",
+      "title": "The Journey of Product Leadership",
+      "capabilityLabel": "Capabilities Built",
+      "stages": [
+        {
+          "number": "01",
+          "name": "Technical Foundation",
+          "period": "2013 - 2016",
+          "summary": "A computer science foundation shaped how I understand\nsystems, engineering and product fundamentals.",
+          "capabilities": [
+            "Engineering thinking: understanding architecture, data structures and engineering methods",
+            "Systems understanding: seeing how complex systems operate from first principles"
+          ]
+        },
+        {
+          "number": "02",
+          "name": "Product Practice",
+          "period": "2016 - 2020",
+          "summary": "Moving into product roles to build business systems\nand digital products.",
+          "capabilities": [
+            "Product design: turning needs into solutions and refining user value",
+            "Business analysis: understanding business models and driving product growth"
+          ]
+        },
+        {
+          "number": "03",
+          "name": "Digital Innovation",
+          "period": "2020 - 2023",
+          "summary": "Exploring blockchain, digital assets\nand emerging business models.",
+          "capabilities": [
+            "0→1 building: validating new business models from the ground up",
+            "Emerging technology: embracing uncertainty and exploring technical boundaries"
+          ]
+        },
+        {
+          "number": "04",
+          "name": "Product Leadership",
+          "period": "2023 - Present",
+          "summary": "Connecting business, technology and teams\nto deliver complex products.",
+          "capabilities": [
+            "Strategic thinking: finding opportunities and shaping long-term product strategy",
+            "Team leadership: unlocking potential and building effective collaboration",
+            "Systems thinking: connecting the whole and building sustainable product systems"
+          ]
+        }
+      ]
+    },
+    "philosophy": {
+      "label": "PRODUCT LEADERSHIP PHILOSOPHY",
+      "title": "Growth is not accumulating more experience.\nIt is forming better judgment in complex environments."
+    }
+  },
+  "productThinking": {
+    "hero": {
+      "label": "PRODUCT THINKING",
+      "title": "Finding the Right Direction\nin Uncertainty",
+      "description": "Finding the best product judgment between business goals,\ntechnology constraints and user value.",
+      "cta": "Explore My Product Practice",
+      "archiveLabel": "DECISION INTELLIGENCE ARCHIVE",
+      "archiveDescription": "Strategic Decision Landscape",
+      "signals": [
+        { "key": "market", "label": "Market Signals", "description": "Market inputs" },
+        { "key": "user", "label": "User Reality", "description": "User insight" },
+        { "key": "business", "label": "Business Goals", "description": "Strategic intent" },
+        { "key": "technology", "label": "Technology Constraints", "description": "Technical boundaries" },
+        { "key": "strategy", "label": "Product Strategy", "description": "Product direction" }
+      ]
+    },
+    "process": {
+      "label": "PRODUCT JUDGMENT PROCESS",
+      "stages": [
+        {
+          "number": "01",
+          "keyword": "OBSERVE",
+          "title": "See the Real Problem",
+          "description": "Extract the problems that truly matter from complex information."
+        },
+        {
+          "number": "02",
+          "keyword": "UNDERSTAND",
+          "title": "Understand Complexity",
+          "description": "Understand the real relationships between users, market, business and technology."
+        },
+        {
+          "number": "03",
+          "keyword": "DECIDE",
+          "title": "Make Critical Trade-offs",
+          "description": "Weigh multiple options and choose the strongest product direction."
+        },
+        {
+          "number": "04",
+          "keyword": "BUILD",
+          "title": "Build Long-term Capability",
+          "description": "Turn judgment into reusable systems that drive lasting product growth."
+        }
+      ]
+    },
+    "principles": {
+      "label": "PRODUCT PRINCIPLES",
+      "line1": "Great products",
+      "line2": "do not accumulate features.",
+      "line3": "They build systems that solve real problems."
+    }
+  },
+  "aiLab": {
+    "hero": {
+      "label": "AI LAB",
+      "titleLead": "Redefining",
+      "titleBase": "How Products Are ",
+      "titleAccent": "Created",
+      "description": "Exploring how AI connects product judgment,\ndesign creation and engineering delivery\nto build the next generation of product work.",
+      "cta": "Explore My AI Lab",
+      "signals": [
+        { "key": "intent", "label": "HUMAN INTENT", "description": "Human judgment" },
+        { "key": "augmentation", "label": "AI AUGMENTATION", "description": "AI amplification" },
+        { "key": "creation", "label": "PRODUCT CREATION", "description": "Product expression" },
+        { "key": "impact", "label": "REAL IMPACT", "description": "Measurable impact" }
+      ]
+    },
+    "framework": {
+      "label": "AI PRODUCT CREATION FRAMEWORK",
+      "stages": [
+        {
+          "number": "01",
+          "keyword": "EXPLORE",
+          "title": "Discover Opportunities",
+          "description": "AI reveals emerging signals, real needs and valuable opportunities."
+        },
+        {
+          "number": "02",
+          "keyword": "CREATE",
+          "title": "Create Possibilities",
+          "description": "AI expands possibility and rapidly generates concepts and alternatives."
+        },
+        {
+          "number": "03",
+          "keyword": "BUILD",
+          "title": "Build Products",
+          "description": "AI connects design and engineering to accelerate usable product delivery."
+        },
+        {
+          "number": "04",
+          "keyword": "EVOLVE",
+          "title": "Evolve Continuously",
+          "description": "AI analyzes feedback and data to advance experience and product value."
+        }
+      ]
+    },
+    "experiments": {
+      "label": "AI EXPERIMENTS ARCHIVE",
+      "items": [
+        { "number": "01", "name": "AI WORKFLOW SYSTEM", "title": "AI orchestration system" },
+        { "number": "02", "name": "AI CREATION ENGINE", "title": "Generative creation engine" },
+        { "number": "03", "name": "AI PRODUCT STUDIO", "title": "AI product workspace" }
+      ]
+    },
+    "philosophy": {
+      "label": "AI PRODUCT PHILOSOPHY",
+      "line1": "AI will not replace product judgment.",
+      "line2": "It will amplify creative capability."
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "CONTACT",
+      "titleLead": "Seeking Products\nWorth",
+      "titleAccent": "Creating Together",
+      "description": "If you are exploring a new product direction,\ndigital innovation, or AI-driven ways to create,\nI would welcome a conversation.",
+      "cta": "Start Conversation"
+    },
+    "collaborationAreas": {
+      "label": "COLLABORATION AREAS",
+      "items": [
+        {
+          "number": "01",
+          "name": "PRODUCT LEADERSHIP",
+          "title": "Product Leadership Collaboration",
+          "description": "0→1 product building\nComplex business breakthroughs"
+        },
+        {
+          "number": "02",
+          "name": "AI PRODUCT INNOVATION",
+          "title": "AI Product Innovation",
+          "description": "AI-augmented product workflows\nInnovation experiments"
+        },
+        {
+          "number": "03",
+          "name": "DIGITAL TRANSFORMATION",
+          "title": "Digital Transformation",
+          "description": "Traditional business upgrades\nSystem building and optimization"
+        }
+      ]
+    },
+    "channels": {
+      "label": "CONTACT CHANNELS",
+      "items": [
+        {
+          "name": "Email",
+          "title": "Direct conversation",
+          "value": "jing.dong@productleader.com",
+          "href": "mailto:jing.dong@productleader.com"
+        },
+        {
+          "name": "Executive Profile",
+          "title": "Product leadership profile",
+          "value": "Download CV",
+          "href": "#"
+        },
+        {
+          "name": "LinkedIn",
+          "title": "Professional network",
+          "value": "View Profile",
+          "href": "#"
+        }
+      ]
+    },
+    "closing": {
+      "label": "LET'S CONNECT",
+      "titleLead": "Great collaboration begins\nwith a shared belief in a future",
+      "titleAccent": "worth creating."
+    }
+  },
+  "executiveFooter": {
+    "name": "Jing Dong",
+    "role": "Product Leader",
+    "connect": "Let's Connect"
+  }
+}

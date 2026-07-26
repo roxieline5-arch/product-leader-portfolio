@@ -1,0 +1,15 @@
+import { createRoot } from 'react-dom/client'
+import { App } from './App'
+import { I18nProvider } from './i18n'
+import './styles.css'
+import './asset-overrides.css'
+import './cases.css'
+import './journey.css'
+import './product-thinking.css'
+import './ai-lab.css'
+import './contact.css'
+import './presentation-layout.css'
+import './international-typography.css'
+import './executive-closing-footer.css'
+
+createRoot(document.getElementById('root')!).render(<I18nProvider><App /></I18nProvider>)

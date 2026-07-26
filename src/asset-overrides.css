@@ -1,0 +1,515 @@
+.home-page {
+  --presentation-canvas: 1440px;
+  --presentation-gutter: 56px;
+  --presentation-gold: #e4b044;
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+  overflow-x: clip;
+  overflow-y: visible;
+  background: #030405;
+}
+
+.home-page > div {
+  width: 100%;
+}
+
+.site-header,
+.hero-inner,
+.capability-list,
+footer {
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-header {
+  padding-right: 72px;
+  padding-left: 72px;
+}
+
+.presentation-background {
+  position: absolute;
+  z-index: 0;
+  inset: 0 auto 0 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.home-page > .site-header {
+  height: 92px;
+  padding: 27px var(--presentation-gutter) 0;
+}
+
+.home-page > .site-header nav,
+.home-page > .site-header .language {
+  padding-top: 8px;
+}
+
+.home-page .hero {
+  position: relative;
+  width: 100%;
+  height: 478px;
+  min-height: 478px;
+  isolation: isolate;
+}
+
+.home-page .hero-background {
+  background: #030405;
+}
+
+.home-page .hero-inner {
+  position: relative;
+  z-index: 1;
+  height: 478px;
+  min-height: 478px;
+  padding: 0;
+}
+
+.home-page .hero-copy {
+  position: relative;
+  z-index: 2;
+  width: 42%;
+  padding: 61px 0 0 var(--presentation-gutter);
+}
+
+.home-page .hero h1 {
+  margin: 27px 0 20px;
+}
+
+.home-page .statement {
+  max-width: 520px;
+}
+
+.home-page .description {
+  max-width: 470px;
+  margin: 31px 0 21px;
+}
+
+.home-hero-cta {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 17px;
+  color: var(--presentation-gold);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: color 220ms ease, text-shadow 220ms ease;
+}
+
+.home-hero-cta span {
+  font-size: 24px;
+  font-weight: 400;
+  transition: transform 220ms ease;
+}
+
+.home-hero-cta:focus-visible {
+  outline: 1px solid var(--presentation-gold);
+  outline-offset: 6px;
+}
+
+@media (hover: hover) {
+  .home-hero-cta:hover {
+    color: #f0c45f;
+    text-shadow: 0 0 12px rgba(228, 176, 68, 0.35);
+  }
+
+  .home-hero-cta:hover span {
+    transform: translateX(4px);
+  }
+}
+
+.home-page .hero-visual {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 0;
+  display: flex;
+  width: 61%;
+  align-items: center;
+  justify-content: flex-end;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.home-hero-visual-frame {
+  position: relative;
+  width: 100%;
+}
+
+.home-page .hero-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.home-hero-label {
+  position: absolute;
+  z-index: 2;
+  width: 160px;
+  transform: translate(-50%, -50%);
+  color: #eee7dc;
+  font-size: clamp(0.75rem, 1.05vw, 1rem);
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.95);
+}
+
+.home-hero-label-system {
+  top: 51%;
+  left: 50.6%;
+  width: 210px;
+  color: #e8b342;
+  font-size: clamp(0.875rem, 1.25vw, 1.125rem);
+}
+
+.home-hero-label-insight {
+  top: 30%;
+  left: 22.5%;
+}
+
+.home-hero-label-tech {
+  top: 30%;
+  left: 79.6%;
+}
+
+.home-hero-label-ai {
+  top: 84%;
+  left: 22.5%;
+}
+
+.home-hero-label-build {
+  top: 84%;
+  left: 79.4%;
+}
+
+.home-page .capabilities {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 138px;
+  padding: 0 var(--presentation-gutter);
+  border: 0;
+  background: #030405;
+}
+
+.home-page .capability-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 1336px;
+  height: 138px;
+  padding: 0;
+  background-image: url('./assets/home/home-capability-panel-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.home-page .capability {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 30px;
+  padding: 0 30px 0 86px;
+  border: 0;
+}
+
+.home-page .capability + .capability {
+  padding-left: 86px;
+  border: 0;
+}
+
+.home-page .capability span {
+  flex: 0 0 auto;
+  font-size: 54px;
+}
+
+.home-page .capability h2 {
+  margin: 0 0 7px;
+  white-space: nowrap;
+}
+
+.home-page .capability p {
+  white-space: nowrap;
+}
+
+.home-closing {
+  position: relative;
+  width: 100%;
+  min-height: 396px;
+  margin-top: 2px;
+  overflow: hidden;
+  isolation: isolate;
+  background-color: #030405;
+  background-image: url('./assets/home/home-belief-closing-background.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.home-closing .belief {
+  width: 100%;
+  min-height: 296px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.home-closing .belief-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1048px;
+  min-height: 296px;
+  margin: 0 auto;
+  padding: 39px 0 92px;
+  text-align: left;
+}
+
+.home-closing .belief h2 {
+  display: block;
+  margin: 15px 0 0;
+  font-weight: 400;
+  white-space: normal;
+  text-align: left;
+}
+
+.home-closing .belief-intro {
+  display: block;
+  color: #f0ebe2;
+  font-size: 29px;
+  line-height: 1.25;
+}
+
+.belief-pillars {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 1px minmax(0, 1fr) 1px minmax(0, 1.36fr);
+  align-items: center;
+  column-gap: 48px;
+  margin-top: 4px;
+}
+
+.belief-pillar {
+  color: #e5b24a;
+  font-size: 38px;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.belief-pillars i {
+  width: 1px;
+  height: 42px;
+  background: rgba(218, 174, 74, 0.38);
+}
+
+.home-closing .belief-description {
+  max-width: 760px;
+  margin: 17px auto 0;
+  color: #aaa8a3;
+  font-size: 15px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+@media (min-width: 901px) {
+  .cases-page > .site-header,
+  .journey-page > .site-header {
+    height: 72px;
+    padding-top: 16px;
+  }
+
+  .cases-page > .site-header nav,
+  .cases-page > .site-header .language,
+  .journey-page > .site-header nav,
+  .journey-page > .site-header .language {
+    padding-top: 8px;
+  }
+}
+
+@media (max-width: 1120px) and (min-width: 901px) {
+  .home-page {
+    --presentation-gutter: 44px;
+  }
+
+  .home-page .capability {
+    gap: 22px;
+    padding-right: 20px;
+    padding-left: 54px;
+  }
+
+  .home-page .capability + .capability {
+    padding-left: 54px;
+  }
+
+  .home-page .capability span {
+    font-size: 48px;
+  }
+
+  .belief-pillars {
+    column-gap: 28px;
+  }
+
+  .belief-pillar {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    height: 90px;
+    padding: 24px 24px 0;
+  }
+
+  .home-page > .site-header {
+    height: 90px;
+    padding: 24px 24px 0;
+  }
+
+  .home-page .hero,
+  .home-page .hero-inner {
+    height: auto;
+    min-height: 0;
+  }
+
+  .home-page .hero-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .home-page .hero-copy {
+    width: auto;
+    max-width: 540px;
+    padding: 56px 28px 0;
+  }
+
+  .home-page .hero h1 {
+    margin-top: 22px;
+  }
+
+  .home-page .description {
+    margin-top: 24px;
+  }
+
+  .home-page .hero-visual {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    margin-top: 12px;
+    transform: none;
+  }
+
+  .home-hero-label {
+    width: 105px;
+    font-size: clamp(0.625rem, 2.8vw, 0.75rem);
+  }
+
+  .home-hero-label-system {
+    width: 145px;
+    font-size: clamp(0.6875rem, 3vw, 0.8125rem);
+  }
+
+  .home-page .capabilities {
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .home-page .capability-list {
+    display: block;
+    height: auto;
+    min-height: 0;
+    padding: 16px 20px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .home-page .capability,
+  .home-page .capability + .capability {
+    min-height: 88px;
+    gap: 24px;
+    padding: 16px 8px;
+    border: 0;
+  }
+
+  .home-page .capability span {
+    width: 58px;
+    font-size: 46px;
+  }
+
+  .home-page .capability h2,
+  .home-page .capability p {
+    white-space: normal;
+  }
+
+  .home-closing {
+    min-height: 0;
+    margin-top: 16px;
+    background-position: center bottom;
+    background-size: cover;
+  }
+
+  .home-closing .belief {
+    min-height: 0;
+  }
+
+  .home-closing .belief-content {
+    min-height: 0;
+    padding: 38px 28px 48px;
+  }
+
+  .belief-intro {
+    font-size: 25px;
+  }
+
+  .belief-pillars {
+    display: block;
+    margin-top: 12px;
+  }
+
+  .belief-pillar {
+    display: block;
+    margin-top: 7px;
+    font-size: 31px;
+    white-space: normal;
+  }
+
+  .belief-pillars i {
+    display: none;
+  }
+
+  .home-closing .belief-description {
+    margin-top: 24px;
+    text-align: left;
+  }
+
+}
+
+@media (max-width: 520px) {
+  .home-page .hero-copy {
+    padding-top: 44px;
+  }
+
+  .home-page .capability-list {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-page *,
+  .home-page *::before,
+  .home-page *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

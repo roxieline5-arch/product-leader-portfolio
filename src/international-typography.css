@@ -1,0 +1,456 @@
+/*
+ * Locale-specific typography for the presentation pages.
+ * Visual assets remain independent from text growth; content regions expand
+ * naturally while the English scale preserves the Chinese composition.
+ */
+
+.locale-en :is(.home-page, .cases-page, .journey-page, .product-thinking-page, .ai-lab-page, .contact-page) :is(h1, h2, h3, h4, p, li) {
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+}
+
+/* Home */
+.locale-en .hero h1 {
+  max-width: 16ch;
+  font-size: clamp(2.5rem, 3.35vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: 0.025em;
+  text-wrap: balance;
+}
+
+.locale-en .statement {
+  max-width: 33ch;
+  font-size: clamp(1.5rem, 1.95vw, 1.75rem);
+  line-height: 1.48;
+  text-wrap: pretty;
+}
+
+.locale-en .description {
+  max-width: 52ch;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.locale-en .capability h2 {
+  font-size: 0.90625rem;
+  line-height: 1.35;
+}
+
+.locale-en .capability p {
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+.locale-en .belief h2 {
+  max-width: none;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.locale-en .belief-intro {
+  font-size: 1.5rem;
+  line-height: 1.35;
+}
+
+.locale-en .belief-pillar {
+  font-size: clamp(1.75rem, 2.2vw, 1.875rem);
+  line-height: 1.35;
+}
+
+.locale-en .belief-description {
+  max-width: 68ch;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Cases */
+.locale-en .cases-hero h1 {
+  max-width: 19ch;
+  font-size: clamp(2.25rem, 3.15vw, 2.75rem);
+  line-height: 1.17;
+  letter-spacing: 0.015em;
+}
+
+.locale-en .cases-hero-description {
+  max-width: 48ch;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.locale-en .case-summary h2 {
+  font-size: 1.125rem;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+}
+
+.locale-en .case-summary p {
+  font-size: 0.8125rem;
+  line-height: 1.72;
+}
+
+.locale-en .cases-philosophy h2 {
+  max-width: 34ch;
+  font-size: 1.375rem;
+  line-height: 1.4;
+}
+
+/* Journey */
+.locale-en .journey-hero h1 {
+  max-width: 100%;
+  font-size: clamp(2.125rem, 2.7vw, 2.4375rem);
+  line-height: 1.18;
+  letter-spacing: 0.012em;
+}
+
+.locale-en .journey-hero-copy {
+  position: relative;
+  z-index: 2;
+  width: calc(100% + 13rem);
+}
+
+.locale-en .journey-hero-description {
+  max-width: 50ch;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.locale-en .leadership-journey-heading h2,
+.locale-en .journey-philosophy-content h2 {
+  font-size: 1.375rem;
+  line-height: 1.35;
+  letter-spacing: 0.025em;
+}
+
+.locale-en .journey-stage-identity h3 {
+  font-size: 0.9375rem;
+  line-height: 1.35;
+}
+
+.locale-en .journey-stage-summary {
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+
+.locale-en .journey-stage-capabilities h4 {
+  font-size: 0.8125rem;
+}
+
+.locale-en .journey-stage-capabilities li {
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
+.locale-en .evolution-stage {
+  width: 205px;
+}
+
+.locale-en .evolution-stage strong {
+  font-size: 0.75rem;
+  white-space: normal;
+}
+
+.locale-en .evolution-stage small {
+  font-size: 0.625rem;
+  line-height: 1.3;
+  white-space: normal;
+}
+
+/* Product Thinking */
+.locale-en .thinking-hero-copy {
+  width: calc(100% + 8rem);
+}
+
+.locale-en .thinking-hero h1 {
+  max-width: 23ch;
+  font-size: clamp(2.25rem, 3vw, 2.625rem);
+  line-height: 1.17;
+  letter-spacing: 0.012em;
+  white-space: pre;
+}
+
+.locale-en .thinking-hero-description {
+  max-width: 52ch;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.locale-en .decision-signal strong {
+  white-space: normal;
+}
+
+.locale-en .thinking-process-stages h3 {
+  font-size: 0.8125rem;
+  line-height: 1.35;
+}
+
+.locale-en .thinking-process-stages p {
+  font-size: 0.75rem;
+  line-height: 1.65;
+}
+
+.locale-en .thinking-principles-content h2 {
+  font-size: 1.625rem;
+  line-height: 1.35;
+  letter-spacing: 0.015em;
+}
+
+/* AI Lab */
+.locale-en .ai-lab-hero-copy {
+  width: calc(100% + 5rem);
+}
+
+.locale-en .ai-lab-hero h1 {
+  font-size: clamp(2.15rem, 3vw, 2.85rem);
+  line-height: 1.14;
+  letter-spacing: -0.025em;
+}
+
+.locale-en .ai-lab-hero h1 span {
+  max-width: 15ch;
+  white-space: normal;
+  text-wrap: balance;
+}
+
+.locale-en .ai-lab-hero-description {
+  max-width: 31rem;
+  font-size: 1rem;
+  line-height: 1.68;
+}
+
+.locale-en .ai-creation-signal strong {
+  font-size: 0.68rem;
+  letter-spacing: 0.055em;
+}
+
+.locale-en .ai-creation-signal span {
+  font-size: 0.64rem;
+  line-height: 1.35;
+}
+
+.locale-en .ai-creation-stages header strong {
+  font-size: 0.74rem;
+}
+
+.locale-en .ai-creation-stages h3 {
+  font-size: 0.78rem;
+}
+
+.locale-en .ai-creation-stages p {
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
+
+.locale-en .ai-experiment-copy h3 {
+  font-size: 0.72rem;
+  line-height: 1.3;
+}
+
+.locale-en .ai-lab-philosophy-content h2 {
+  font-size: clamp(1.6rem, 2.25vw, 2.3rem);
+  line-height: 1.25;
+}
+
+/* Contact */
+.locale-en .contact-hero__title {
+  font-size: clamp(2.05rem, 2.75vw, 2.6rem);
+  line-height: 1.16;
+  letter-spacing: -0.018em;
+}
+
+.locale-en .contact-hero__title span,
+.locale-en .contact-hero__title strong {
+  white-space: pre-line;
+}
+
+.locale-en .contact-hero__description {
+  max-width: 30rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.locale-en .collaboration-area__copy > p {
+  font-size: 0.66rem;
+  line-height: 1.3;
+}
+
+.locale-en .collaboration-area__copy h3 {
+  font-size: 0.84rem;
+  line-height: 1.3;
+}
+
+.locale-en .collaboration-area__copy small {
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
+
+.locale-en .contact-channel__copy strong {
+  font-size: 0.95rem;
+}
+
+.locale-en .contact-channel__copy em,
+.locale-en .contact-channel__copy small {
+  font-size: 0.68rem;
+  line-height: 1.35;
+}
+
+.locale-en .contact-closing h2 {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  line-height: 1.3;
+}
+
+/* Bounded English descriptions: these limits are guards, not fixed layout heights. */
+.locale-en :is(
+  .description,
+  .capability p,
+  .belief-description,
+  .cases-hero-description,
+  .case-summary p,
+  .journey-hero-description,
+  .journey-evolution-heading span,
+  .journey-stage-summary
+) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.locale-en :is(.description, .belief-description, .cases-hero-description, .journey-hero-description) {
+  -webkit-line-clamp: 3;
+}
+
+.locale-en :is(.capability p, .journey-evolution-heading span) {
+  -webkit-line-clamp: 2;
+}
+
+.locale-en .case-summary p {
+  -webkit-line-clamp: 4;
+}
+
+.locale-en .journey-stage-summary {
+  -webkit-line-clamp: 5;
+}
+
+@media (max-width: 900px) {
+  .locale-en .hero h1 {
+    max-width: 14ch;
+    font-size: clamp(2.125rem, 9vw, 2.25rem);
+  }
+
+  .locale-en .statement {
+    max-width: 31ch;
+    font-size: clamp(1.25rem, 5.5vw, 1.375rem);
+  }
+
+  .locale-en .belief h2 {
+    max-width: none;
+    font-size: inherit;
+  }
+
+  .locale-en .belief-intro {
+    font-size: 1.25rem;
+  }
+
+  .locale-en .belief-pillar {
+    font-size: clamp(1.375rem, 6vw, 1.625rem);
+  }
+
+  .locale-en .cases-hero h1 {
+    max-width: 100%;
+    font-size: clamp(1.875rem, 7.7vw, 2.625rem);
+  }
+
+  .locale-en .cases-hero-description {
+    -webkit-line-clamp: 5;
+  }
+
+  .locale-en .cases-philosophy h2 {
+    font-size: clamp(1.25rem, 5.8vw, 1.75rem);
+  }
+
+  .locale-en .journey-hero h1 {
+    max-width: 100%;
+    font-size: clamp(1.6875rem, 6.9vw, 2.125rem);
+    white-space: normal;
+  }
+
+  .locale-en .journey-hero-copy {
+    width: calc(100% + 1.5rem);
+  }
+
+  .locale-en .leadership-journey-heading h2,
+  .locale-en .journey-philosophy-content h2 {
+    font-size: clamp(1.25rem, 5.6vw, 1.625rem);
+  }
+
+  .locale-en .journey-stage-identity h3 {
+    font-size: 1rem;
+  }
+
+  .locale-en .journey-stage-summary,
+  .locale-en .journey-stage-capabilities li {
+    font-size: 0.8125rem;
+  }
+
+  .locale-en .evolution-stage {
+    width: auto;
+  }
+
+  .locale-en .evolution-stage strong {
+    font-size: 0.75rem;
+  }
+
+  .locale-en .evolution-stage small {
+    font-size: 0.625rem;
+  }
+
+  .locale-en .thinking-hero-copy {
+    width: auto;
+  }
+
+  .locale-en .thinking-hero h1 {
+    max-width: 22ch;
+    font-size: clamp(1.875rem, 8vw, 2.375rem);
+    white-space: pre-line;
+  }
+
+  .locale-en .thinking-hero-description {
+    max-width: 44ch;
+  }
+
+  .locale-en .thinking-process-stages h3 {
+    font-size: 0.875rem;
+  }
+
+  .locale-en .thinking-process-stages p {
+    font-size: 0.8125rem;
+  }
+
+  .locale-en .thinking-principles-content h2 {
+    font-size: clamp(1.375rem, 6vw, 1.75rem);
+  }
+
+  .locale-en .ai-lab-hero-copy {
+    width: auto;
+  }
+
+  .locale-en .ai-lab-hero h1 {
+    font-size: clamp(1.85rem, 9.5vw, 2.45rem);
+    line-height: 1.12;
+  }
+
+  .locale-en .ai-lab-philosophy-content h2 {
+    font-size: clamp(1.35rem, 6.2vw, 1.75rem);
+  }
+
+  .locale-en .contact-hero__title {
+    font-size: clamp(1.9rem, 9.2vw, 2.4rem);
+    line-height: 1.14;
+  }
+
+  .locale-en .contact-closing h2 {
+    font-size: clamp(1.3rem, 6vw, 1.7rem);
+  }
+}
