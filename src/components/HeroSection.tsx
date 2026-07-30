@@ -26,7 +26,7 @@ export function HeroSection() {
           <h1>{hero.title}</h1>
           <p className="statement">{hero.subtitle}</p>
           <p className="description">{hero.description}</p>
-          <a className="home-hero-cta" href="/cases">
+          <a className="home-hero-cta" href={`${import.meta.env.BASE_URL}cases`}>
             {hero.cta}
             <span aria-hidden="true">→</span>
           </a>

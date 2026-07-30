@@ -20,7 +20,7 @@ export function ProductThinkingHeroSection() {
           <h1 id="product-thinking-title">{hero.title}</h1>
           <span className="thinking-short-rule" aria-hidden="true" />
           <p className="thinking-hero-description">{hero.description}</p>
-          <a className="thinking-cta" href="/cases">
+          <a className="thinking-cta" href={`${import.meta.env.BASE_URL}cases`}>
             {hero.cta}<span aria-hidden="true">→</span>
           </a>
         </motion.div>
